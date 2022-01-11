@@ -14,7 +14,7 @@ You can grab the cdn link down below :
 
 The documentation link :
 
-https://github.com/JcerelusDev/GameDialogboxJs
+https://github.com/JcerelusDev/GameDialogboxJs/wiki
 
 
 
