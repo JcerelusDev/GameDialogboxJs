@@ -5,3 +5,8 @@ Learn more in the documentation.
 
 
 https://github.com/JcerelusDev/GameDialogboxJs
+
+
+Cdn link :
+
+https://github.com/JcerelusDev/GameDialogboxJs/blob/master/gamedialogbox.js
