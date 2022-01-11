@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+.dialog-container{
+margin-top:300px;
+
+}
+
+
+</style>
+</head>
+<body>
+
+
+<script src="gamedialogbox.js"></script>
+<script type="text/javascript">
+var log= console.log
+
+var S = function(x){
+return document.querySelector(x)
+}
+
+
+
+S("body").style.background="green"
+
+var ph1 = "Hello sir , How are you ?"
+var ph2 = "I am fine how about you ?"
+var ph3 = "I am fine ."
+var ph4 = "Nice to meet you ."
+var ph5 ="Nice to meet you too."
+
+var dialog1 = new gameDialogBox(ph1,"black")
+
+var textCount = 0
+function remove(e){
+
+textCount++
+if(textCount == 1){
+document.body.removeChild(e.target.parentElement)
+ dialog2 = new gameDialogBox(ph2,"")
+}
+
+if(textCount == 2){
+document.body.removeChild(e.target.parentElement)
+ dialog3 = new gameDialogBox(ph3,"")
+}
+
+if(textCount == 3){
+ dialog4 = new gameDialogBox(ph4,"")
+document.body.removeChild(e.target.parentElement)
+}
+
+if(textCount == 4){
+ dialog4 = new gameDialogBox(ph5,"")
+document.body.removeChild(e.target.parentElement)
+}
+
+if(textCount == 5){
+document.body.removeChild(e.target.parentElement)
+var dialog = new gameDialogBox("This is about to disappear","red",true)
+}
+
+ 
+}
+
+</script>
+</body>
+</html>
