@@ -1,6 +1,6 @@
 # GameDialogboxJs
 GameDialogBoxJs is a textAnimation  libray used to add a dialogbox in your game,
-with asmooth text animation letter by letter and a nice container.
+with a smooth text animation letter by letter and a nice container.
 Learn more in the documentation.
 
 
