@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<script type="module">
+import dialog from "./gamedialogbox.min.js"
+
+let message = new dialog.gameDialogBox(" hello world ,how are you doing today, i think the day is very awesome","red",false,"JcerelusDev")
+.btnDialog.remove =(e)=>{
+document.body.removeChild(e.target.parentElement)
+let message2 = new dialog.gameDialogBox(" hello","red",false,"JcerelusDev")
+.btnDialog.remove =(e)=>{
+document.body.removeChild(e.target.parentElement)
+let message3 = new dialog.gameDialogBox(" hi","red",true,"JcerelusDev")
+}
+}
+
+</script>
+</body>
+</html>
