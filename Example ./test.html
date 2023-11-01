@@ -14,47 +14,20 @@ margin-top:300px;
 <body>
 
 
-<script src="https://cdn.jsdelivr.net/gh/JcerelusDev/GameDialogBoxJs/gamedialogbox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/JcerelusDev/GameDialogBoxJs/cdn/gamedialogbox.min.js"></script>
 <script type="text/javascript">
-var log= console.log
+// when using the cdn version
 
-var ph1 = " Hello sir , How are you ?"
-var ph2 = " I am fine how about you ?"
-var ph3 = " I am fine ."
-var ph4 = " Nice to meet you ."
-var ph5 =" Nice to meet you too."
-
-
-var dialog1 = new gameDialogBox(ph1,"black",false,"Paul")
-
-var textCount = 0
-function remove(e){
-
-textCount++
-if(textCount == 1){
+ let message = new gameDialogBox(" hello world ,how are you doing today, i think the day is very awesome","red",false,"JcerelusDev")
+.btnDialog.remove =(e)=>{
 document.body.removeChild(e.target.parentElement)
- dialog2 = new gameDialogBox(ph2,"dodgerblue",false,"John")
+let message2 = new gameDialogBox(" hello","red",false,"JcerelusDev")
+.btnDialog.remove =(e)=>{
+document.body.removeChild(e.target.parentElement)
+let message3 = new gameDialogBox(" hi","red",true,"JcerelusDev")
+}
 }
 
-if(textCount == 2){
-document.body.removeChild(e.target.parentElement)
- dialog3 = new gameDialogBox(ph3,"green",false,"Paul")
-}
-
-if(textCount == 3){
- dialog4 = new gameDialogBox(ph4,"white",false,"Paul")
-document.body.removeChild(e.target.parentElement)
-}
-
-if(textCount == 4){
- dialog4 = new gameDialogBox(ph5,"purple",false,"John")
-document.body.removeChild(e.target.parentElement)
-}
-
-if(textCount == 5){
-document.body.removeChild(e.target.parentElement)
-var dialog = new gameDialogBox("This is about to disappear","red",true)
-}
 
  
 }
