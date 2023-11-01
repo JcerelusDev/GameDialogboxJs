@@ -9,7 +9,7 @@ Learn more in the documentation.
 
 You can grab the cdn link down below :
 <pre><code>
-&lt;script src="https://cdn.jsdelivr.net/gh/JcerelusDev/GameDialogBoxJs/gamedialogbox.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://cdn.jsdelivr.net/gh/JcerelusDev/GameDialogBoxJs/cdn/gamedialogbox.min.js"&gt;&lt;/script&gt;
 </code></pre>
 
 The documentation link :
