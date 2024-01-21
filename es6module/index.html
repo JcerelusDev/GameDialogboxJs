@@ -7,13 +7,13 @@
 <script type="module">
 import dialog from "./gamedialogbox.min.js"
 
-let message = new dialog.gameDialogBox(" hello world ,how are you doing today, i think the day is very awesome","red",false,"JcerelusDev")
+let message = new dialog.gameDialogBox(" hello world ,how are you doing today, i think the day is very awesome","red",false,"JcerelusDev",0.5,60,"sine")
 .btnDialog.remove =(e)=>{
 document.body.removeChild(e.target.parentElement)
-let message2 = new dialog.gameDialogBox(" hello","red",false,"JcerelusDev")
+let message2 = new dialog.gameDialogBox(" hello","red",false,"JcerelusDev",0.5,60,"sine")
 .btnDialog.remove =(e)=>{
 document.body.removeChild(e.target.parentElement)
-let message3 = new dialog.gameDialogBox(" hi","red",true,"JcerelusDev")
+let message3 = new dialog.gameDialogBox(" hi","red",true,"JcerelusDev",0.5,60,"sine")
 }
 }
 
